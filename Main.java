@@ -1,23 +1,21 @@
 class Main {
-    // Intance Variable
+    // Static Variable
     /*
-    Variabel yang dideklarasikan diluar Method atau Konstruktor, didalam sebuah Class.
+    Variabel yang dideklarasikan diluar Method, didalam sebuah Class.
     •	Dibuat unuk penggunaan variabel untuk banytak Method.
-    •	Tidak harus dideklarasikan nilai awl, dan akan bernilai default dan mengembalikan nilai untuk Int = 0, boolean = false, dan Referensi Object = null.
+    •	Dideklarasikan menggunakan keyword static.
     class Main{
-        <type_data> nameVariable;
-        Public static void main(string[] args) {
-            Main intanceVariable = new Main();
-            System.out.println(intanceVariable.<type_data>); 
+        static <type_data> nameVariable;
+        Public static void main(String[] args) {
+            System.out.println(nameVariable); 
         }	
     }
-
     */
     
-    String name;
+    static String name = "Nuryadin Abutani";
     public static void main(String[] args) {
         // Object
-        Main main = new Main();
-        System.out.println(main.name);
+        // Main main = new Main();
+        System.out.println(name);
     }
 }
