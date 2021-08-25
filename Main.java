@@ -1,13 +1,20 @@
 class Main {
-    // Variable lokal
+    // Intance Variable
     /*
-    Variabel lokal dideklarasikan didalam metod atau block, dan hanya dapat digunakan didalam method tersebut. Dibuat ketika method dipanggil dan dihapus setelah pemanggilannya.
-    •	Pendeklarasiannya harus lengkap:  <type_data> namaVarabel = <value>;
-    •	Variabel tidak bisa dipanggil langsung dari method.
-    •	Pemanggilan variabel dari dalam method harus dibuat objek baru berdar Class-nya.
+    Variabel yang dideklarasikan diluar Method atau Konstruktor, didalam sebuah Class.
+    •	Dibuat unuk penggunaan variabel untuk banytak Method.
+    •	Tidak harus dideklarasikan nilai awl, dan akan bernilai default dan mengembalikan nilai untuk Int = 0, boolean = false, dan Referensi Object = null.
+    class Main{
+        <type_data> nameVariable;
+        Public static void main(string[] args) {
+            Main intanceVariable = new Main();
+            System.out.println(intanceVariable.<type_data>); 
+        }	
+    }
+
     */
     
-    String name = "Nuryadin Abutani";
+    String name;
     public static void main(String[] args) {
         // Object
         Main main = new Main();
