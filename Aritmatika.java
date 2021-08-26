@@ -1,5 +1,8 @@
 public class Aritmatika {
-    
+    /*
+    Aritmatika: Operasi aritmatika
+    (+, -, *, /, % (modulasi), ++ (Increment), -- (Decrement)).
+    */
     public static void main(String[] args) {
         // declarated variabels
         int x = 10;
