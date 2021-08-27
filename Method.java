@@ -1,7 +1,7 @@
 public class Method {
     /*
     Method di Java: block kode yang di referensikan dengan sebuah nama yang dapat dipanggil untuk dijalankan. 
-    Dipanggil dengan namaMethod();
+    Harus mendeklarasikan objek, dipanggil dengan namaMethod();
     <return_type> namaMethod() {
         return value;
     }
